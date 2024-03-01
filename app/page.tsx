@@ -18,6 +18,7 @@ export default function Home() {
   const onSubmit: SubmitHandler<FormData> = (data) => {
 
     alert("Form Submitted")
+    window.location.pathname="/"
 
   }
 
@@ -43,7 +44,7 @@ export default function Home() {
           <div className="mb-5">
 
 
-            <input type="number" placeholder="Age" className="border-2 border-gray-600 rounded p-1 text-lg w-full" {...register("age", { required: "Age is required", min: 18, max: 90 })} />
+            <input type="number" placeholder="Age" className="border-2 border-gray-600 rounded p-1 text-lg w-full" {...register("age", { required: "Age is required", min: 0, max: 90 })} />
             {errors.age && <p role="alert">{errors.age.message}</p>}
           </div>
           <div className="mb-5">
