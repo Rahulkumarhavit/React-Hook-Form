@@ -1,4 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+It contain a simple ui form illustrate about the React-Hook-Form. A Simple library to create the complex form without taking care about state management.
+It also has performance by minimizing the re-rendering.
+It also has more control over the data handling and designing of the complex form.
+checkout the official documentation :- https://react-hook-form.com/get-started
 
 ## Getting Started
 
